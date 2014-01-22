@@ -333,7 +333,9 @@ namespace WindowsFormsApplication1
                 if (e.Button == MouseButtons.Right)
                     contextMenuStrip1.Show(this, new Point(e.X+ 390 , e.Y + 30));
             }
-        } 
+        }
+
+       
     
     }
 }

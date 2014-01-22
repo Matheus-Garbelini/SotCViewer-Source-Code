@@ -135,8 +135,7 @@ namespace WindowsFormsApplication1
                                 {
                                     if (nico > 2668)
                                     {
-                                        if (File.Exists(@"index\nico.dat.index")==true)
-                                        {
+                                        try{
                                             FileInfo c = new FileInfo(@"index\nico.dat.index");
                                             long index = c.Length / 1000;
                                             if (index >= 1350 && index <= 1352) { }
@@ -168,7 +167,7 @@ namespace WindowsFormsApplication1
                                             }
 
                                         }
-                                        else if (File.Exists(@"index\nico.dat.index")==false){
+                                        catch {
                                             MessageBox.Show("Found a different game version on the previously choosen path.\nThe Viewer will refresh now, click OK and wait a moment.");
                                             var processStartInfo = new ProcessStartInfo("cmd");
 
@@ -205,7 +204,7 @@ namespace WindowsFormsApplication1
                                         {
                                             if (nico < 685)
                                             {
-                                                if (File.Exists(@"index\nico.dat.index"))
+                                                try
                                                 {
                                                     FileInfo c = new FileInfo(@"index\nico.dat.index");
                                                     long index = c.Length / 1000;
@@ -238,7 +237,7 @@ namespace WindowsFormsApplication1
                                                     }
 
                                                 }
-                                                else
+                                                catch
                                                 {
                                                     MessageBox.Show("Found a different game version on the previously choosen path.\nThe Viewer will refresh now, click OK and wait a moment.");
                                                     var processStartInfo = new ProcessStartInfo("cmd");
@@ -271,7 +270,7 @@ namespace WindowsFormsApplication1
                                             }
                                             else
                                             {
-                                                if (File.Exists(@"index\nico.dat.index"))
+                                                try
                                                 {
                                                     FileInfo c = new FileInfo(@"index\nico.dat.index");
                                                     long index = c.Length / 1000;
@@ -304,7 +303,7 @@ namespace WindowsFormsApplication1
                                                     }
 
                                                 }
-                                                else
+                                                catch
                                                 {
                                                     MessageBox.Show("Found a different game version on the previously choosen path.\nThe Viewer will refresh now, click OK and wait a moment.");
                                                     var processStartInfo = new ProcessStartInfo("cmd");
@@ -338,7 +337,7 @@ namespace WindowsFormsApplication1
                                         }
                                         else
                                         {
-                                            if (File.Exists(@"index\nico.dat.index"))
+                                           try
                                             {
                                                 FileInfo c = new FileInfo(@"index\nico.dat.index");
                                                 long index = c.Length / 1000;
@@ -371,7 +370,7 @@ namespace WindowsFormsApplication1
                                                 }
 
                                             }
-                                            else
+                                            catch
                                             {
                                                 MessageBox.Show("Found a different game version on the previously choosen path.\nThe Viewer will refresh now, click OK and wait a moment.");
                                                 var processStartInfo = new ProcessStartInfo("cmd");
@@ -710,6 +709,12 @@ namespace WindowsFormsApplication1
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Process.Start(e.Link.LinkData as string);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ALLMODELS h = new ALLMODELS();
+            h.Close();
         }
         
         

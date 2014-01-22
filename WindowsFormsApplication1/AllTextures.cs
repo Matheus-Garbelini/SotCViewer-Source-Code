@@ -25,6 +25,7 @@ namespace WindowsFormsApplication1
             InitializeComponent();
            
         }
+
        
 
         private void AllTextures_Load(object sender, EventArgs e)
@@ -186,10 +187,16 @@ namespace WindowsFormsApplication1
                     
                 }
 
-
+                MessageBox.Show("Extraction will occur now, press OK and wait a moment.","INFO");
+                           
+                
+             
                 foreach (string item in listBox1.SelectedItems)
-                {
+                {                
 
+                    
+
+                
                     StreamWriter sr = new StreamWriter("xp_fix.bat");
                     sr.WriteLine(@"set file=%1 set path=%2");
                     sr.WriteLine(@"imgv %1 -ppm");
@@ -215,10 +222,11 @@ namespace WindowsFormsApplication1
                     imgvWriter.WriteLine("xp_fix " + item + " " + export_path);
 
                     while (processIsRunning("imgv") == false) ;
-                    while (File.Exists(item + ".ppm") == false) { Thread.Sleep(400); break; }
+                    while (File.Exists(item + ".ppm") == false) { Thread.Sleep(500); break; }
                     if (File.Exists(item + ".ppm"))
                     {
-                        Thread.Sleep(150);
+                        
+                        Thread.Sleep(200);
                         System.Diagnostics.Process[] process = System.Diagnostics.Process.GetProcessesByName("imgv");
                         foreach (System.Diagnostics.Process p in process)
                         {
@@ -245,15 +253,23 @@ namespace WindowsFormsApplication1
                             imgvWriter.WriteLine("exit");
                             imgv.WaitForExit();
 
-
+                           
                         }
+                        
+
+                       
                     }
                     catch
                     {
                     }
+                    
+                    
+                
 
                 }
+                
                 File.Delete("xp_fix.bat");
+                MessageBox.Show("Exportation Completed!!!\nIf some of your textures appear with no image in your folder try again to export them isolated", "INFO");
 
             }
             else
@@ -383,6 +399,8 @@ namespace WindowsFormsApplication1
                     contextMenuStrip1.Show(this, new Point(e.X, e.Y + 60));
             }
         }
+
+       
 
 
     }

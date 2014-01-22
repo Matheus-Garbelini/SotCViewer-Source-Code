@@ -56,6 +56,7 @@ namespace WindowsFormsApplication1
         private void ALLMODELS_Load(object sender, EventArgs e)
         {
             
+            
             viewin.Parent = pictureBox1;
             viewout.Parent = pictureBox1;
            

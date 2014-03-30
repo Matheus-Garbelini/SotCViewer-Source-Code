@@ -145,7 +145,6 @@ namespace WindowsFormsApplication1
                     place_list = place_list.Remove(place_list.Length - 23);
                     StreamWriter sr = new StreamWriter("multiple_selection.bat");
                     sr.WriteLine(place_list);
-                    sr.WriteLine("del multiple_selection.bat");
                     sr.Close();
                     Process.Start("multiple_selection.bat");
 

@@ -204,12 +204,14 @@ namespace WindowsFormsApplication1
 
         private void viewin_MouseEnter(object sender, EventArgs e)
         {
+            viewin.Visible = false;
             button1.Visible = true;
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
             button1.Visible = false;
+            viewin.Visible = true;
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)

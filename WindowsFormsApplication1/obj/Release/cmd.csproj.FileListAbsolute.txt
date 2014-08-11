@@ -17,3 +17,41 @@ C:\Users\acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Rele
 C:\Users\acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.application
 C:\Users\acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
 C:\Users\acer\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
+C:\Users\MatheusEduardo\Desktop\dormin\SotC Viewer.exe.config
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
+C:\Users\MatheusEduardo\Desktop\dormin\SotC Viewer.exe.manifest
+C:\Users\MatheusEduardo\Desktop\dormin\SotC Viewer.application
+C:\Users\MatheusEduardo\Desktop\dormin\SotC Viewer.exe
+C:\Users\MatheusEduardo\Desktop\dormin\SotC Viewer.pdb
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\cmd.csprojResolveAssemblyReference.cache
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Advanced.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLMODELS.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKB.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKBS.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ColossusForm.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Main.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Misc.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.Cache
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
+C:\Users\MatheusEduardo\Desktop\WindowsFormsApplication1\WindowsFormsApplication1\obj\Release\SotC Viewer.application
+C:\Users\MatheusEduardo\Documents\Backup\dormin\SotC Viewer.exe.config
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\SotC Viewer.exe
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\SotC Viewer.pdb
+C:\Users\MatheusEduardo\Documents\Backup\dormin\SotC Viewer.exe.manifest
+C:\Users\MatheusEduardo\Documents\Backup\dormin\SotC Viewer.application
+C:\Users\MatheusEduardo\Documents\Backup\dormin\SotC Viewer.exe
+C:\Users\MatheusEduardo\Documents\Backup\dormin\SotC Viewer.pdb
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\cmd.csprojResolveAssemblyReference.cache
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Advanced.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLMODELS.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKB.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ALLSKBS.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.ColossusForm.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Main.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Misc.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\cmd.csproj.GenerateResource.Cache
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\SotC Viewer.exe.manifest
+C:\Users\MatheusEduardo\Documents\Backup\SotCV Source\WindowsFormsApplication1\obj\Release\SotC Viewer.application

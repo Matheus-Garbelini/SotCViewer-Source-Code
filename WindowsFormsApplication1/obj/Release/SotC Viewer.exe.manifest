@@ -48,26 +48,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExtendedListControl.dll" size="28672">
-      <assemblyIdentity name="ExtendedListControl" version="1.0.2623.26254" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9dvgNmWVp6aXQXycU5k4FXy18Pw=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SotC Viewer.exe" size="10832384">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SotC Viewer.exe" size="10847744">
       <assemblyIdentity name="SotC Viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>gjluQe9RM69RBhOJ3gSplF9L5Ls=</dsig:DigestValue>
+        <dsig:DigestValue>TKJ6REtEqtDMjTIIYUd4GLz7FsA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
